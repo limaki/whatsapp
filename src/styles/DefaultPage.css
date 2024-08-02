@@ -1,0 +1,37 @@
+
+
+.default-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e5ddd5; 
+    color: #333; 
+  }
+  
+  .default-page-content {
+    text-align: center;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .default-page h1 {
+    font-size: 2em;
+    color: #25d366; 
+    margin-bottom: 20px;
+  }
+  
+  .default-page p {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .logo {
+    width: 150px;
+    height: auto;
+    margin: 20px 0;
+  }
+  

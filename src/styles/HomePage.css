@@ -1,0 +1,129 @@
+/* .home-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #e5ddd5;
+  }
+  
+  .header {
+    background-color: #25d366;
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .contacts-list {
+    flex: 1;
+    overflow-y: auto;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    background-color: white;
+  }
+  
+  .contact-item:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .contact-avatar img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  
+  .contact-name {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .contact-message {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .message-text {
+    flex: 1;
+  }
+  
+  .message-time {
+    color: #999;
+    font-size: 12px;
+  }
+  
+
+  @media (max-width: 768px) {
+    .header {
+      font-size: 18px;
+    }
+  
+    .contact-avatar img {
+      width: 50px;
+      height: 50px;
+    }
+  
+    .contact-name {
+      font-size: 14px;
+    }
+  
+    .contact-message {
+      font-size: 12px;
+    }
+  
+    .message-time {
+      font-size: 10px;
+    }
+  }
+   */
+
+
+   .home-page {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #e5ddd5; /* Color de fondo similar al de WhatsApp */
+  }
+  
+  .home-header {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    background-color: #25d366; /* Color similar al de WhatsApp */
+    color: white;
+    text-align: center;
+  }
+  
+  .home-header h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Estilos para la lista de contactos */
+  .contact-list-container {
+    flex: 1;
+    overflow-y: auto;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    .home-header h2 {
+      font-size: 16px;
+    }
+  }
+  
